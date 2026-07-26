@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title">
+  <title id="title">Platzhalter für ein Portrait von Andy und Lucia</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#301525"/>
+      <stop offset="1" stop-color="#8f3158"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="330" cy="380" r="130" fill="#d6a64b" fill-opacity="0.84"/>
+  <circle cx="570" cy="380" r="130" fill="#fff9ef" fill-opacity="0.82"/>
+  <path d="M120 930c32-235 126-360 282-360s252 125 282 360" fill="#d6a64b" fill-opacity="0.72"/>
+  <path d="M320 930c28-235 112-360 250-360s224 125 250 360" fill="#fff9ef" fill-opacity="0.62"/>
+  <text x="450" y="1010" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#fff9ef">Portrait von Andy und Lucia hier einsetzen</text>
+</svg>

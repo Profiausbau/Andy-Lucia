@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title">
+  <title id="title">Platzhalter für das vierte Galeriefoto</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d6a64b"/>
+      <stop offset="1" stop-color="#6f193c"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg)"/>
+  <circle cx="700" cy="170" r="150" fill="#fff9ef" fill-opacity="0.16"/>
+  <circle cx="170" cy="570" r="210" fill="#301525" fill-opacity="0.16"/>
+  <text x="450" y="365" text-anchor="middle" font-family="Georgia, serif" font-size="190" fill="#fff9ef" fill-opacity="0.75">♫</text>
+  <text x="450" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#fff9ef">Eigenes Foto hier einsetzen</text>
+</svg>
