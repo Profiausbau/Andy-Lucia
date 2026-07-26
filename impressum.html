@@ -16,11 +16,11 @@
     nav { display:flex; gap:18px; }
     nav a { color:rgba(255,255,255,.82); text-decoration:none; font-weight:700; }
     main { padding:70px 0 90px; }
-    .notice { margin-bottom:24px; padding:18px 20px; border:1px solid #d6a64b; border-radius:14px; color:#4c3414; background:#fff0c9; font-weight:700; }
     article { padding:clamp(28px, 6vw, 60px); border-radius:24px; background:white; box-shadow:0 22px 60px rgba(48,21,37,.12); }
     h1 { margin:0 0 28px; font-family:Georgia, "Times New Roman", serif; font-size:clamp(2.4rem, 6vw, 4.2rem); line-height:1; }
     h2 { margin:38px 0 12px; font-family:Georgia, "Times New Roman", serif; color:var(--wine); }
     p { color:var(--muted); }
+    article a { color:var(--wine); }
     .placeholder { color:var(--wine); font-weight:800; }
     footer { padding:28px 0; color:rgba(255,255,255,.7); background:#1f0b19; text-align:center; }
     @media (max-width:620px) { .header-inner { align-items:flex-start; flex-direction:column; } }
@@ -39,28 +39,28 @@
 
   <main>
     <div class="container">
-      <div class="notice">Bitte Anschrift und vollständige verantwortliche Person noch ergänzen und die Angaben vor der Veröffentlichung rechtlich prüfen.</div>
       <article>
         <h1>Impressum</h1>
 
         <h2>Angaben gemäß § 5 DDG</h2>
         <p>
-          <span class="placeholder">Vollständiger Name oder Unternehmensname</span><br>
+          Andreas Topol<br>
           Andy &amp; Lucia<br>
-          <span class="placeholder">Straße und Hausnummer</span><br>
-          <span class="placeholder">Postleitzahl und Ort</span>
+          Beethovenstraße 73<br>
+          59199 Bönen
         </p>
 
         <h2>Kontakt</h2>
         <p>
           Telefon: 0172 2455717<br>
-          E Mail: info@andy-lucia.de
+          E Mail: <a href="mailto:andreas.topol@gmail.de">andreas.topol@gmail.de</a>
         </p>
 
         <h2>Verantwortlich für den Inhalt</h2>
         <p>
-          <span class="placeholder">Vorname und Nachname ergänzen</span><br>
-          <span class="placeholder">Anschrift ergänzen</span>
+          Andreas Topol<br>
+          Beethovenstraße 73<br>
+          59199 Bönen
         </p>
 
         <h2>Haftung für Inhalte</h2>
